@@ -249,3 +249,13 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  background-color: #008080;
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 13px 0;
+  max-width: 200px;
+  border-radius: 15px;
+}
