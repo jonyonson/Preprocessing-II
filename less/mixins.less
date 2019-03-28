@@ -1,13 +1,13 @@
 // Mixins in here
 
-.button(@bgcolor, @color, @bordercolor) {
+.button(@bgcolor, @color, @bordercolor, @maxwidth) {
   background-color: @bgcolor;
   color: @color;
   border: 1px solid @bordercolor;
   font-size: 1.8rem;
   text-align: center;
   padding: 13px 0;
-  max-width: 200px;
+  max-width: @maxwidth;
   border-radius: 15px;
   cursor: pointer;
 }
