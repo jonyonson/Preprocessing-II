@@ -258,4 +258,5 @@ img {
   padding: 13px 0;
   max-width: 200px;
   border-radius: 15px;
+  cursor: pointer;
 }
